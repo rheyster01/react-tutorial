@@ -1,0 +1,92 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.insta-profile {
+  background: white;
+  width: 360px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  text-align: center;
+}
+
+.insta-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.insta-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #e1306c;
+  object-fit: cover;
+}
+
+.insta-info h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.username {
+  color: #777;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.follow-btn {
+  margin-top: 10px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.follow-btn:hover {
+  background: #007acc;
+}
+
+.insta-stats {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.insta-stats div {
+  text-align: center;
+}
+
+.insta-stats strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.insta-stats span {
+  font-size: 13px;
+  color: #777;
+}
+
+.bio {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+}
